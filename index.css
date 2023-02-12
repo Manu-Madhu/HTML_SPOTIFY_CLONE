@@ -152,9 +152,20 @@ select {
 .fa-arrow-left {
   font-size: 15px;
 }
+.signUp:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.signUp span:hover{
+    color: white;
+}
 .signUp span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(156, 156, 156);
+}
+.login:hover{
+    cursor: pointer;
+    transform: scale(1.1);  
 }
 .login {
   margin-right: 15rem;
@@ -231,6 +242,11 @@ h1:hover {
 }
 .circel img{
   width: 50px;
+}
+.circel img:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+    cursor: auto;
 }
 .card:hover {
   cursor: pointer;
